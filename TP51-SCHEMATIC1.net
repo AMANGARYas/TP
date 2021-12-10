@@ -1,0 +1,7 @@
+* source TP51
+C_C1         0 S1  10n  
+C_C2         S2 S1  10n  
+R_R2         0 S2  {val}  
+R_R1         E S1  {val}  
+V_V4         E 0 DC 0Vdc AC 2Vac 
+.PARAM  val=10k
